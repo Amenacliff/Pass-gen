@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1080e5d849.js" crossorigin="anonymous"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Password Generator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body><br><br>
+    <button class="btna" id="buttona"><a href="https://www.teckiway.com">Home</a></button><br><br><br><br>
+
+    <div class="form">
+        <h2>Password Generator</h2>
+        <div class="result-container">
+            <span id="result" style="color:white"></span>
+            
+            <i class="fas fa-clipboard" id="clip"></i>
+        
+        </div>
+        <br><br>
+        <div class="form1">
+           <label>Password Length:<input class="box" type="number" name="length" id="length"></label><br><br>
+           <label>Include uppercase letters:<input class="check" type="checkbox" id="uppercase" checked> <span class="checkmark"></span> </label><br><br>
+           <label>Include lowercase letters:<input class="check-y" type="checkbox" id="lowercase" checked><span class="checkmark"></span> </label><br><br>
+           <label>Include numbers:<input class="check-s" type="checkbox" id="numbers" checked><span class="checkmark"></span> </label><br><br>
+           <label >Include symbols:<input class="check-b" type="checkbox" id="symbols" checked><span class="checkmark"></span>  </label><br><br>
+
+           <button class="btn" id="button">Generate Password</button><br><br>
+        </div>
+    </div>
+    <script src='main.js'></script><br><br>
+<div class="texta">
+    <div class="main">
+            <h2 class="head2">Notes from TECKIWAY Regarding our Password Generator:</h2><br><br>
+    <p>To stop your passwords from being hacked by social engineering, brute drive or dictionary assault technique, and hold your on-line accounts secure, you need to discover that:
+    </p><br><br>
+    <p>1. Don't use the identical password, safety query and reply for a number of vital accounts.
+        </p><br>
+        <p>2. Use a password that has at least 16 characters, use at least one quantity, one uppercase letter, one lowercase letter and one particular image.
+            </p><br>
+            <p>3. Don't use the names of your households, mates or pets in your passwords.</p><br>
+            <p>4. Don't use postcodes, home numbers, cell phone numbers, birthdates, ID card numbers, social security numbers, and so forth in your passwords.
+                </p><br>
+                <p>5. Don't use any dictionary phrase in your passwords. Examples of sturdy passwords: ePYHc~dS*)eight$+V-' , qzRtC{6rXN3N\RgL , zbfUMZPE6`FC%)sZ. Examples of weak passwords: qwert12345, Gbt3fC79ZmMEFUFJ, 1234567890, 987654321, barkerpassword.
+                    </p><br>
+
+                    <p>6. Don't use two or extra related passwords which most of their characters are similar, for instance, ilovefreshflowersMac, ilovefreshflowersDropBox, since if one in all these passwords is stolen, then it signifies that all of those passwords are stolen.
+                        </p><br>
+                        <p>7. Don't use one thing that may be cloned( however you'll be able to't change ) as your passwords, reminiscent of your fingerprints.
+                            </p><br>
+                            <p>8. Don't let your Net browsers( FireFox, Chrome, Safari, Opera, IE ) to retailer your passwords, since all passwords saved in Net browsers will be revealed simply.
+                                </p><br>
+
+                                <p>9. Don't log in to vital accounts on the computer systems of others, or when linked to a public Wi-Fi hotspot, Tor, free VPN or internet proxy.
+                                    </p><br>
+
+                                    <p>10. Don't ship delicate data on-line by way of unencrypted( e.g. HTTP or FTP ) connections, as a result of messages in these connections will be sniffed with little or no effort. It's best to use encrypted connections reminiscent of HTTPS, SFTP, FTPS, SMTPS, IPSec every time doable.</p><br>
+
+                                    <p>11. When travelling, you'll be able to encrypt your Web connections earlier than they go away your laptop computer, pill, cell phone or router. For instance, you'll be able to arrange a personal VPN( with MS-CHAP v2 or stronger protocols ) by yourself server( house pc, devoted server or VPS ) and hook up with it. <br><br> Alternatively, you'll be able to arrange an encrypted SSH tunnel between your router and your house pc( or a distant server of your personal ) with PuTTY and join your applications( e.g. FireFox ) to PuTTY. Then even when anyone captures your information as it's transmitted between your gadget( e.g. laptop computer, iPhone, iPad ) and your server with a packet sniffer, they're going to will not be capable of stealing your information and passwords from the encrypted streaming information.
+                                        </p><br>
+                                    <p>12. How safe is my password? Maybe you imagine that your passwords are very sturdy, troublesome to hack. But when a hacker has stolen your username and the MD5 hash worth of your password from an organization's server, and the rainbow desk of the hacker incorporates this MD5 hash, then your password will likely be cracked shortly. <br><br>
+                                            To examine the energy of your passwords and know whether or not they're inside the favored rainbow tables, you'll be able to convert your passwords to MD5 hashes on a MD5 hash generator, then decrypt your passwords by submitting these hashes to an internet MD5 decryption service. <br><br> For example, your password is "0123456789A", utilizing the brute-force technique, it might take a pc virtually one yr to crack your password, however for those who decrypt it by submitting its MD5 hash( C8E7279CD035B23BB9C0F1F954DFF5B3 ) to a MD5 decryption web site, how lengthy will it take to crack it? You may carry out the check yourself.
+                                       </p><br>
+                                    <p>13. It is really helpful to vary your passwords each 10 weeks.
+                                        </p><br>
+                                    <p>14. It is really helpful that you simply bear in mind a number of grasp passwords, retailer different passwords in a plain textual content file and encrypt this file with 7-Zip, GPG or a disk encryption software program reminiscent of BitLocker, or handle your passwords with a password administration software program.
+                                        </p><br>
+                                    <p>15. Encrypt and backup your passwords to totally different places, then for those who misplaced entry to your pc or account, you'll be able to retrieve your passwords again shortly.
+                                        </p><br>
+                                    <p>16. Activate 2-step authentication every time doable.
+                                        </p><br>
+                                    <p>17. Don't retailer your essential passwords within the cloud.
+                                        </p><br>
+                                    <p>18. Entry vital web sites( e.g. Paypal ) from bookmarks straight, in any other case please examine its area identify fastidiously, it is a good suggestion to examine the recognition of an internet site with Alexa toolbar to make sure that it is not a phishing website earlier than coming into your password.
+                                        </p><br>
+                                    <p>19. Shield your pc with firewall and antivirus software program, block all incoming connections and all pointless outgoing connections with the firewall. Obtain software program from respected websites solely, and confirm the MD5 / SHA1 / SHA256 checksum or GPG signature of the set up package deal every time doable.
+                                        </p><br>
+                                    <p>20. Maintain the working methods( e.g. Home windows 7, Home windows 10, Mac OS X, iOS, Linux ) and Net browsers( e.g. FireFox, Chrome, IE, Microsoft Edge ) of your units( e.g. Home windows PC, Mac PC, iPhone, iPad, Android pill ) up-to-date by putting in the most recent safety replace.
+                                        </p><br>
+                                    <p>21. If there are vital information in your pc, and it may be accessed by others, examine if there are hardware keyloggers( e.g. wi-fi keyboard sniffer ), software program keyloggers and hidden cameras once you really feel it is necessary.
+                                        </p><br>
+                                    <p>22. If there are WIFI routers in your house, then it is doable to know the passwords you typed( in your neighbor's home ) by detecting the gestures of your fingers and arms, for the reason that WIFI sign they acquired will change once you transfer your fingers and arms. You need to use an on-screen keyboard to sort your passwords in such instances, it will be safer if this digital keyboard( or mushy keyboard ) adjustments layouts each time.
+                                        </p><br>
+                                    <p>23. Lock your pc and cell phone once you go away them.
+                                        </p><br>
+                                    <p>24. Encrypt all the exhausting drive with LUKS or related instruments earlier than placing vital information on it, and destroy the exhausting drive of your previous units bodily if it is necessary.
+                                        </p><br>
+                                    <p>25. Entry vital web sites in personal or incognito mode, or use one Net browser to entry vital web sites, use one other one to entry different websites. Or entry unimportant web sites and set up new software program inside a digital machine created with VMware, VirtualBox or Parallels.
+                                        </p><br>
+                                    <p>26. Use at the least three totally different e mail addresses, use the primary one to obtain emails from vital websites and Apps, reminiscent of Paypal and Amazon, use the second to obtain emails from unimportant websites and Apps, use the third one( from a distinct email supplier, reminiscent of Outlook and GMail ) to obtain your password-reset email when the primary one( e.g. Yahoo Mail ) is hacked.
+                                        </p><br>
+                                    <p>27. Use at least 2 different cell phone numbers, do NOT inform others the cellphone quantity which you utilize to obtain textual content messages of the verification codes.
+                                        </p><br>
+                                    <p>28. Don't click on the hyperlink in an e mail or SMS message, don't reset your passwords by clicking them, besides that these messages should not pretend.
+                                        </p><br>
+                                    <p>29. Don't inform your passwords to anyone within the email.
+                                        </p><br>
+                                    <p>30. It is doable that one of many software programs or App you downloaded or up to date has been modified by hackers, you'll be able to keep away from this downside by not putting in this software program or App on the first time, besides that it is revealed to repair safety holes. You need to use Net based mostly apps as a substitute, that are safer and transportable.
+                                        </p><br>
+                                    <p>31. Watch out when utilizing on-line paste instruments and display screen seize instruments, don't allow them to add your passwords to the cloud.</p><br>
+                                    <p>32. Should you're a webmaster, don't retailer customers passwords, safety questions and solutions as plain textual content within the database, you need to retailer the salted ( SHA1, SHA256 or SHA512 )hash values of of those strings as a substitute. <br><br> It is really helpful to generate a novel random salt string for every consumer. As well as, it is a good suggestion to log the consumer's gadget data( e.g. OS model, display screen decision, and so forth. ) and save the salted hash values of them, then when he/she attempts to login with the right password however his/her gadget data does NOT match the earlier saved one, let this consumer to confirm his/her identification by coming into one other verification code despatched by way of SMS or e mail.
+                                        </p><br>
+                                    <p>33. If you're a software program developer, you need to publish the replace package deal signed with a personal key utilizing GnuPG, and confirm the signature of it with the general public key revealed beforehand.
+                                        </p><br>
+                                    <p>34. To maintain your on-line enterprise secure, you need to register a site identify of your personal, and arrange an e mail account with this area identify, then you definitely will not lose your e mail account and all of your contacts, since your can host your mail server anyplace, your e mail account cannot be disabled by the email supplier.
+                                        </p><br>
+                                    <p>35. If an internet purchasing web site solely permits to make fee with bank cards, then you need to use a digital bank card as a substitute.
+                                        </p><br>
+                                    <p>36. Shut your internet browser once you go away with your pc, in any other case the cookies will be intercepted with a small USB gadget simply, making it doable to bypass two-step verification and log into your account with stolen cookies on different computer systems.
+                                        </p><br>
+                                    <p>37. Mistrust and take away dangerous SSL certificates out of your Net browser, in any other case you'll NOT be capable of making sure the confidentiality and integrity of the HTTPS connections which use these certificates.
+                                    </p><br>
+                                    <p>38. Encrypt all the system partition, in any other case please disable the pagefile and hibernation capabilities, because it's doable to search out your vital paperwork within the pagefile.sys and hiberfil.sys information.
+                                        </p><br>
+                                    <p>39. To stop brute drive login assaults to your devoted servers, VPS servers or cloud servers, you'll be able to set up an intrusion detection and prevention software program reminiscent of LFD( Login Failure Daemon ) or Fail2Ban.
+                                        </p><br>
+    </div>
+    </div>
+</body>
+</html>
